@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-    "short_name": "BSMART",
-    "name": "BSMART Application",
-=======
     "name": "BSMART",
     "short_name": "BSAMRT",
     "start_url": ".",
@@ -12,23 +8,16 @@
     "description": "BSMART PWA",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
->>>>>>> 0ca20b4fb61c6c60d41df89d104c699905abc7b1
     "icons": [
-      {
-        "src": "/web/icons/Icon-192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "/web/icons/Icon-512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
-    "start_url": "/",
-    "background_color": "#3367D6",
-    "display": "standalone",
-    "scope": "/",
-    "theme_color": "#3367D6",
-    "description": "BSMART Application"
-  }
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
