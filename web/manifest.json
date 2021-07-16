@@ -1,6 +1,18 @@
 {
+<<<<<<< HEAD
     "short_name": "BSMART",
     "name": "BSMART Application",
+=======
+    "name": "BSMART",
+    "short_name": "BSAMRT",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "BSMART PWA",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+>>>>>>> 0ca20b4fb61c6c60d41df89d104c699905abc7b1
     "icons": [
       {
         "src": "/web/icons/Icon-192.png",
