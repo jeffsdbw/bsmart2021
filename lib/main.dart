@@ -50,7 +50,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   bool flag = true;
-  /*int _counter = 0;
+  int _counter = 0;
 
   void _incrementCounter() {
     setState(() {
@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // called again, and so nothing would appear to happen.
       _counter++;
     });
-  }*/
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -79,36 +79,6 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
       ),
       body: Center(
-        child: AnimatedSwitcher(
-            duration: Duration(milliseconds: 1000),
-            child: flag
-                ? Container(
-                    key: Key('1'),
-                    //color: Colors.orange,
-                    child: Center(
-                      child: Text(
-                        'BW',
-                        style: TextStyle(
-                            fontSize: 40,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.pink),
-                      ),
-                    ),
-                    width: 200,
-                    height: 200,
-                  )
-                : Container(
-                    key: Key('2'),
-                    color: Colors.blue,
-                    width: 200,
-                    height: 200,
-                  )),
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.arrow_forward_ios),
-        onPressed: () => setState(() => flag = !flag),
-      ),
-      /*body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: Column(
@@ -142,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
-      ), */ // This trailing comma makes auto-formatting nicer for build methods.
+      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
